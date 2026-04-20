@@ -55,7 +55,7 @@ function App() {
       </Route>
 
       {/*  ye add karo */}
-      <Route path="/view/:resumeId" element={<Preview />} />
+      <Route path="/public/:resumeId" element={<Preview />} />
 
       <Route path="/login" element={<Login />} />
 
